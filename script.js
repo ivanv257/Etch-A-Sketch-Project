@@ -1,9 +1,9 @@
 
 // Create and Append the Main Grid Container
-const body = document.querySelector('body');
+const divContainer = document.querySelector('#divContainer');
 
-const div = createElement('div');
-div.classList.add('gridContainer');
-div.textContent = 'Hello this is the gridContainer and if this text appears the grid container should be active.'
+const divChild = createElement('div');
+divChild.classList.add('gridChild');
+divChild.textContent = 'Hello this is the gridChild and if this text appears the gridChild should be active.'
 
-body.appendChild(div);
+body.appendChild(divChild);
