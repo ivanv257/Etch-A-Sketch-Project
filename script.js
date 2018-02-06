@@ -6,7 +6,7 @@ const divChild = document.createElement('div');
 divChild.classList.add('gridChild');
 
 // Check the grid container border. 
-gridContainer.setAttribute('style', 'border: 1px solid black; height: 1600px; width: 1600px');
+gridContainer.setAttribute('style', 'border: 1px solid black; height: 1200px; width: 1200px');
 
 
 gridContainer.appendChild(divChild);
