@@ -6,4 +6,4 @@ const divChild = createElement('div');
 divChild.classList.add('gridChild');
 divChild.textContent = 'Hello this is the gridChild and if this text appears the gridChild should be active.'
 
-body.appendChild(divChild);
+divContainer.appendChild(divChild);
