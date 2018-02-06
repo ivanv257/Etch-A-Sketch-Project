@@ -5,8 +5,8 @@ const gridContainer = document.querySelector('#gridContainer');
 const divChild = document.createElement('div');
 divChild.classList.add('gridChild');
 
-divChild.setAttribute('style', 'color: blue');
-divChild.textContent = 'Hello this is the gridChild and if this text appears the gridChild should be active.';
+// Check the grid container border. 
+gridContainer.setAttribute('style', 'border: 1px solid black; height: 16px; width: 16px');
 
 
 gridContainer.appendChild(divChild);
