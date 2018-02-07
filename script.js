@@ -9,16 +9,16 @@ gridItem.classList.add('grid-item');
 gridContainer.appendChild(gridItem);
 gridItem.setAttribute('style', 'border: 1px solid black');
 
-gridContainer.appendChild(gridItem);
-gridContainer.appendChild(gridItem);
-gridContainer.appendChild(gridItem);
-gridContainer.appendChild(gridItem);
-gridContainer.appendChild(gridItem);
-gridContainer.appendChild(gridItem);
-gridContainer.appendChild(gridItem);
+
 
 gridItem.addEventListener('mouseover', hoverFunction);
 
 function hoverFunction(){
-  gridItem.setAttribute('style', 'background-color: black;')  
+  gridItem.setAttribute('style', 'background-color: black')  
+}
+
+gridItem.addEventListener('mouseout', hoverOutFunction);
+
+function hoverOutFunction(){
+  gridItem.setAttribute('style', 'background-color: white')
 }
