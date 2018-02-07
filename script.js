@@ -7,7 +7,7 @@ gridContainer.setAttribute('style', 'display: grid; grid-template-columns: auto 
 const gridItem = document.createElement('div');
 gridItem.classList.add('grid-item');
 gridContainer.appendChild(gridItem);
-gridItem.setAttribute('style', 'border: 1px solid black')
+gridItem.setAttribute('style', 'border: 1px solid black');
 
 gridContainer.appendChild(gridItem);
 gridContainer.appendChild(gridItem);
@@ -16,3 +16,9 @@ gridContainer.appendChild(gridItem);
 gridContainer.appendChild(gridItem);
 gridContainer.appendChild(gridItem);
 gridContainer.appendChild(gridItem);
+
+gridItem.addEventListener('mouseover', hoverFunction);
+
+function hoverFunction(){
+  gridItem.setAttribute('style', 'background-color: black;')  
+}
