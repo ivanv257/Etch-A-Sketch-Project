@@ -1,10 +1,7 @@
 
 // Select and style the main Grid container
 const gridContainer = document.querySelector('.grid-container');
-gridContainer.setAttribute('style', 'display: grid; grid-template-columns: auto auto auto; border: 1px solid black; height: 600px; width: 600px');
-
-const bodyTag = document.querySelector('body');
-bodyTag.setAttribute('style', 'text-align: center');
+gridContainer.setAttribute('style', 'display: grid; grid-template-columns: auto auto auto; border: 1px solid black; height: 600px; width: 600px; margin-left: 25px;');
 
 
 // Grid items
