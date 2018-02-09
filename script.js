@@ -18,8 +18,3 @@ function hoverFunction(){
   gridItem.setAttribute('style', 'background-color: black')  
 }
 
-gridItem.addEventListener('mouseout', hoverOutFunction);
-
-function hoverOutFunction(){
-  gridItem.setAttribute('style', 'background-color: white')
-}
