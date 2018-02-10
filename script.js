@@ -11,6 +11,10 @@ gridContainer.appendChild(gridItem);
 gridItem.setAttribute('style', 'border: 1px solid black');
 
 
+gridContainer.appendChild(gridItem);
+
+
+
 
 gridItem.addEventListener('mouseover', hoverFunction);
 
