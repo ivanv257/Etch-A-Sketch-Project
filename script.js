@@ -12,3 +12,5 @@ function createGrid(){
     container.appendChild(unit);
   }
 }
+
+createGrid();
