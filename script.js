@@ -4,7 +4,7 @@ const container = document.querySelector('#container');
 let gridSize = 16;
 
 //Create the grid - gridSize length * gridSize Height\
-function createGrid() {
+createGrid = () => {
   for (var i = 0; i < gridSize * gridSize; i++) {
     let unit = document.createElement('div');
     unit.className = 'unit';
@@ -13,7 +13,7 @@ function createGrid() {
   }
 }
 
-function generateString() {
+generateString = () => {
   var columns = "";
   var rows = "";
   for (var i = 0; i < gridSize; i++) {
@@ -24,6 +24,7 @@ function generateString() {
   rows = rows.concat(columns);
   return rows;
 }
+
 
 document.querySelector('#container').style.grid = generateString();
 createGrid();
