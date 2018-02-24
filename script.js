@@ -5,7 +5,7 @@ let gridSize = 16;
 
 //Create the grid - gridSize length * gridSize Height\
 createGrid = () => {
-  for (var i = 0; i < gridSize * gridSize; i++) {
+  for (let i = 0; i < gridSize * gridSize; i++) {
     let unit = document.createElement('div');
     unit.className = 'unit';
     container.appendChild(unit);
@@ -14,9 +14,9 @@ createGrid = () => {
 }
 
 generateString = () => {
-  var columns = "";
-  var rows = "";
-  for (var i = 0; i < gridSize; i++) {
+  let columns = "";
+  let rows = "";
+  for (let i = 0; i < gridSize; i++) {
     rows += "1fr "
     columns += " 1fr"
   }
