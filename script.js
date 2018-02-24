@@ -26,11 +26,7 @@ generateString = () => {
 }
 
 // Change color of grids when hover over with mouse.
-changeUnitColor = () =>{
-  changeColor = () => { unit.setAttribute('style', 'background-color: black')};
-  document.querySelector('.unit').addEventListener('mouseover', changeColor);
-}
+
 
 document.querySelector('#container').style.grid = generateString();
 createGrid();
-changeUnitColor();
