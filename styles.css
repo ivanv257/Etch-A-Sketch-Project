@@ -99,6 +99,7 @@ video {
 }
 
 #container {
+	margin-top: 45px;
 	height: 700px;
 	width: 700px;
 	display: grid;
