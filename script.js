@@ -10,6 +10,9 @@ createGrid = () => {
     unit.className = 'unit';
     container.appendChild(unit);
     unit.setAttribute('style', 'border: 1px solid black');
+    unit.addEventListener('mouseover', (e) => {
+    e.target.style.background = '#333333';
+})
   }
 }
 
