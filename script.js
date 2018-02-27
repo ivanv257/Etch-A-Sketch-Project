@@ -1,6 +1,6 @@
 let body = document.querySelector('body');
 const container = document.querySelector('#container');
-let navigationList = document.querySelector('li');
+let navigationList = document.getElementsByClassName('topMenu');
 
 let gridSize = 16;
 
