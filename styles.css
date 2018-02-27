@@ -117,13 +117,12 @@ nav ul li {
 	padding-right: 10px;
 	margin-top: 15px;
 	margin-bottom: 15px;
-	color: #eaeaea;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
 li a {
 	text-decoration: none;
-	color: #eaeaea;
+	color: #c6c6c6;
 }
 
 #container {
