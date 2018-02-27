@@ -99,7 +99,9 @@ video {
 }
 
 /* Import google font */
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
 
 nav {
 	background-color: #333333;
@@ -115,7 +117,8 @@ nav ul li {
 	padding-right: 10px;
 	margin-top: 15px;
 	margin-bottom: 15px;
-	font-family: 'Raleway', sans-serif;
+	color: #eaeaea;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 #container {
