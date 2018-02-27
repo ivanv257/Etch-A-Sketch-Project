@@ -11,7 +11,7 @@ createGrid = () => {
     unit.className = 'unit';
     container.appendChild(unit);
     unit.setAttribute('style', 'border: 1px solid black');
-    unit.addEventListener('mouseover', (e) => {             // Hovering effect for color change 
+    unit.addEventListener('mouseover', (e) => { // Hovering effect for color change 
       e.target.style.background = '#333333';
     })
   }
@@ -35,10 +35,10 @@ createGrid();
 
 
 // Navigation hover Effect
-navigationList.addEventListener('mouseover', (e) =>{
+navigationList.addEventListener('mouseover', (e) => {
   e.target.style.color = "#ffffff";
 })
 
-navigationList.addEventListener('onmouseout', (e) =>{
-  e.target.style.color = "#eaeaea";
+navigationList.addEventListener('onmouseout', (e) => {
+  e.target.style.color = "#c6c6c6";
 })
