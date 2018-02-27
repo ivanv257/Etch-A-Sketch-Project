@@ -121,6 +121,11 @@ nav ul li {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
+li a {
+	text-decoration: none;
+	color: #eaeaea;
+}
+
 #container {
 	margin-top: 150px;
 	height: 500px;
