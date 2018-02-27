@@ -132,3 +132,10 @@ li a {
 	display: grid;
 	border: 1px solid black;
 }
+
+button {
+	margin-top: 25px;
+	border: none;
+	background-color: #f2f2f2;
+	color: #757575;
+}
