@@ -1,8 +1,8 @@
 let body = document.querySelector('body');
 const container = document.querySelector('#container');
+let navigationList = document.querySelector('li');
 
 let gridSize = 16;
-
 
 //Create the grid - gridSize length * gridSize Height
 createGrid = () => {
@@ -30,8 +30,14 @@ generateString = () => {
   return rows;
 }
 
-
-
-
 document.querySelector('#container').style.grid = generateString();
 createGrid();
+
+// Navigation hover Effect
+navigationList.addEventListener('mouseover', (e) =>{
+  e.target.style.color = "#ffffff";
+})
+
+navigationList.addEventListener('onmouseout', (e) =>{
+  e.target.style.color = "#eaeaea";
+})
