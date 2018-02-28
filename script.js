@@ -14,8 +14,8 @@ createGrid = () => {
       e.target.style.background = '#333333';
     })
     let eraseButton = document.getElementById('erase');
-    eraseButton.addEventListener('onclick', () =>{
-      unit.style.background = '#ffffff';
+    eraseButton.addEventListener('onclick', (unit) =>{
+      unit.target.style.background = '#ffffff';
   })
   }
 }
