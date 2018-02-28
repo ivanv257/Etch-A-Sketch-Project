@@ -1,6 +1,5 @@
 let body = document.querySelector('body');
 const container = document.querySelector('#container');
-let navigationList = document.getElementsByClassName('topMenu');
 
 let gridSize = 16;
 
@@ -34,11 +33,3 @@ document.querySelector('#container').style.grid = generateString();
 createGrid();
 
 
-// Navigation hover Effect
-navigationList.addEventListener('mouseover', (e) => {
-  e.target.style.color = "#ffffff";
-})
-
-navigationList.addEventListener('onmouseout', (e) => {
-  e.target.style.color = "#c6c6c6";
-})
