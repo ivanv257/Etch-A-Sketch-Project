@@ -13,6 +13,10 @@ createGrid = () => {
     unit.addEventListener('mouseover', (e) => { // Hovering effect for color change 
       e.target.style.background = '#333333';
     })
+    let eraseButton = document.getElementById('erase');
+    eraseButton.addEventListener('onclick', () =>{
+      unit.style.background = '#ffffff';
+  })
   }
 }
 
