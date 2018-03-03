@@ -1,7 +1,7 @@
 let body = document.querySelector('body');
 const container = document.querySelector('#container');
 
-let gridSize = 16;
+let gridSize = prompt('Select grid size. Enter a numerical value between 15 and 100');
 
 
 //Create the grid - gridSize length * gridSize Height
