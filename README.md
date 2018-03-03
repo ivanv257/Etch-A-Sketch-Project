@@ -6,6 +6,8 @@ From The Odin Project Curriculum
 ```javascript
 
 `for (let i = 0; i < gridSize * gridSize; i++)`
+
 ```
+
 <h2>View Demo</h2>
 https://ivanv257.github.io/Etch-A-Sketch-Project/
