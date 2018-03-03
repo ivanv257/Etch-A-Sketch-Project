@@ -3,6 +3,11 @@ const container = document.querySelector('#container');
 
 let gridSize = 16;
 
+askGridSize = () => {
+ gridsize = prompt('Please enter your prefered grid size. Recommended 15 to 100');
+}
+
+askGridSize();
 //Create the grid - gridSize length * gridSize Height
 createGrid = () => {
   for (let i = 0; i < gridSize * gridSize; i++) {
